@@ -3,7 +3,7 @@
 # Place this file in .git/hooks/pre-commit
 # Make it executable: chmod +x .git/hooks/pre-commit
 
-echo "🔍 Running pre-commit hook..."
+echo "Running pre-commit hook..."
 
 # Check all Python files for syntax errors
 for file in $(git diff --cached --name-only | grep '\.py$'); do
