@@ -44,7 +44,7 @@ jobs:
       run: python calculator_code.py
       
     - name: Build artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: calculator-output
         path: |
