@@ -1,0 +1,23 @@
+name: Hello World
+
+# Когда запускать
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+# Что делать
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+      
+    - name: Say hello
+      run: echo "Hello, GitHub Actions!"
+      
+    - name: Show date
+      run: date
