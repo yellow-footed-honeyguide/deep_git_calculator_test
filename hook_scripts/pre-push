@@ -7,7 +7,7 @@ echo "Running pre-push hook..."
 
 # Run Python tests
 echo "Running calculator tests..."
-python3 -m pytest calculator_code.py -v
+python3 -m pytest test_calculator.py -v
 
 if [ $? -ne 0 ]; then
     echo "Tests failed!"
