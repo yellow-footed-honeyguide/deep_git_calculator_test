@@ -36,6 +36,7 @@ def main():
     print(f"10 * 5 = {calc.multiply(10, 5)}")
     print(f"10 / 5 = {calc.divide(10, 5)}")
     print(f"10 / 5 = {calc.divide(10, 5)}")
+    print(f"10 / 5 = {calc.divide(10, 5)}")
 
 
 if __name__ == "__main__":
