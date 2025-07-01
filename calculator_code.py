@@ -5,8 +5,8 @@ Author: Your Name
 Purpose: Teaching Git hooks with a real example
 """
 
-classs Calculator:
-    """Basic 10 calculator with simple operations"""
+class Calculator:
+    """Basic 15 calculator with simple operations"""
     
     def add(self, a, b):
         """Add two numbers"""
