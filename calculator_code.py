@@ -6,7 +6,7 @@ Purpose: Teaching Git hooks with a real example
 """
 
 class Calculator:
-    """Basic calculator with simple operations"""
+    """Basic 5 calculator with simple operations"""
     
     def add(self, a, b):
         """Add two numbers"""
